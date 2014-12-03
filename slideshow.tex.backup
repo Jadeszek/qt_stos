@@ -1,0 +1,128 @@
+\documentclass{beamer}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english,polish]{babel}
+\usepackage{polski}
+
+\usepackage{wasysym}
+
+
+\usetheme{Warsaw}
+\setbeamercolor{structure}{fg=green!50!black}
+\setbeamercovered{transparent}
+
+\begin{document}
+\title{Qt - co, jak i dlaczego}   
+\author{Kamil Szymon Jadeszko} 
+\institute{Studenckie Towarzystwo Open Source}
+\date{\today} 
+
+\frame{\titlepage} 
+
+%\frame{\frametitle{Table of contents}\tableofcontents} 
+
+
+\section{Czym jest Qt?}
+\subsection{Krótko o Qt}
+\frame{\frametitle{Krótko o Qt}
+
+\begin{itemize}
+\item Framework do tworzenia aplikacji w C++ (i nie tylko - PyQt, QtJambi)
+\item Kompilacja kodu na różne platformy bez konieczności zmian
+\item Tworzenie natywnych aplikacji == wydajność
+\item Niezależne od systemu GUI
+\end{itemize} 
+}
+
+
+\subsection{Wspierane platformy}
+\frame{ \frametitle{Wspierane platformy}
+
+\begin{itemize}
+\item Android  
+\item iOS
+\item OS X
+\item Wayland
+\item Windows
+\item Windows Phone
+\item X11 
+\item antyki - Symbian, Windows CE/Mobile
+\end{itemize}
+}
+
+\frame{\frametitle{Rys historyczny}
+\begin{itemize}
+\item Trolltech (1991–2008)
+\item Nokia (2008–2011)	
+\item Digia (2012–2014)
+\item Qt Company (2014-present)
+\item Qt Project (2011–present)
+\end{itemize} 
+}
+
+
+
+\subsection{Moduły}
+\frame{\frametitle{Moduły}
+\begin{itemize}
+\item Qt Core - podstawowy, wspołbieżność, wątki, wejście-wyjście  
+\item Qt GUI, Qt Widgets - budowa GUI, kontrolki
+\item Qt Multimedia - dźwięk, obraz, wideo, łączność radiowa, kamera
+\item Qt Network - programowanie sieciowe
+\item Qt QML, Qt Quick - obsługa języka QML i JavaScript oraz GUI doń
+\item Qt SQL - obsługa baz danych
+\item Qt Test - framework do testowania aplikacji
+\item Qt WebKit - silnik do renderowania stron WWW
+\end{itemize} 
+}
+
+\subsection{Qt Add-Ons}
+\frame{\frametitle{Qt Add-Ons}
+\begin{itemize}
+\item Qt Bluetooth
+\item Qt NFC
+\item Qt Graphical Effects
+\item Qt Image Formats
+\item Qt Mac Extras, Qt Android Extras, Qt Windows Extras, Qt X11 Extras
+\item Qt XML
+\item Qt Sensors
+\item Qt Print Support
+\end{itemize} 
+}
+
+\subsection{Przykłady użycia}   
+\frame{\frametitle{Przykłady użycia}
+\begin{itemize}
+\item KDE
+\item Linuksowe wersje Spotify i Skype
+\item Team Speak
+\item Wireshark
+\item VLC Media Player
+\item Gadu-Gadu \blacksmiley \blacksmiley \blacksmiley 
+
+\end{itemize} 
+}
+
+
+\subsection{Warte uwagi}   
+\frame{\frametitle{Warte uwagi}
+\begin{itemize}
+\item \textbf{Dokumentacja!}
+\item Zarządzanie pamięcią
+\item Mechanizm sygnałów i slotów
+\item Bezproblemowa kompilacja na Androida
+\item QML / Qt Quick
+\item Qt Designer
+
+\end{itemize} 
+}
+
+
+\frame{
+Dzięki za uwagę.
+}
+
+
+
+\end{document}
+
